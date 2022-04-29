@@ -14,3 +14,4 @@ bin/pulsar-admin topics create persistent://public/default/__amqp_queue__amqp-ai
 ### References
 
 * https://pika.readthedocs.io/en/stable/examples/blocking_consume.html
+* https://github.com/tspannhw/FLiPN-AirQuality-REST
