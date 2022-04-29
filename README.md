@@ -9,6 +9,8 @@ FLiPN - Air Quality - Checks against MQTT, Kafka, AMQP/RabbitMQ.  MoP. KoP. AoP.
 
 bin/pulsar-admin topics create persistent://public/default/__amqp_queue__amqp-airquality
 
+bin/pulsar-client consume "persistent://public/default/__amqp_queue__amqp-airquality"
+
 ```
 
 ### References
